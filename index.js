@@ -21,8 +21,9 @@ function viewCart() {
   } else {
     var message = ['In your cart, you have ']
     for (let i=0,i<cart.length-1,i++) {
-      message.push(cart[i].)
+      message.push(`${cart[i].itemName} at $ ${cart[i].itemPrice}, `)
     }
+    message.push(` and ${cart.slice(-1)} at ${}.`)
   }
 }
 
