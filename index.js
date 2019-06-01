@@ -23,6 +23,7 @@ function viewCart() {
     for (let i=0,i<cart.length-1,i++) {
       message.push(`${cart[i].itemName} at $ ${cart[i].itemPrice}, `)
     }
+    var lastItem = cart.slice(-1)
     message.push(` and ${cart.slice(-1)} at ${}.`)
   }
 }
