@@ -11,8 +11,8 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- var itemName
- var itemPrice
+ // var itemName
+ // var itemPrice
  var price = 
  var newItem = {itemName:[item],itemPrice:[price]}
  Object.assign(cart,newItem)
