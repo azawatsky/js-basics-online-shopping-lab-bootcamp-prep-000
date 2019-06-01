@@ -19,8 +19,9 @@ function viewCart() {
   if (cart.length===0) {
     return 'Your shopping cart is empty.'
   } else {
+    var message = ['In your cart, you have ']
     for (let i=0,i<cart.length-1,i++) {
-      
+      message.push(cart[i].)
     }
   }
 }
