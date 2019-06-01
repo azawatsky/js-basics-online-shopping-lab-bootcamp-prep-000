@@ -24,7 +24,7 @@ function viewCart() {
       message.push(`${cart[i].itemName} at $ ${cart[i].itemPrice}, `)
     }
     var lastItem = cart.slice(-1)
-    message.push(` and ${cart.slice(-1)} at ${}.`)
+    message.push(` and ${cart.slice(-1)[0].} at ${}.`)
   }
 }
 
