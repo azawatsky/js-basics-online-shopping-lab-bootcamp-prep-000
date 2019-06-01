@@ -13,7 +13,7 @@ function addToCart(item) {
  // write your code here
  // var itemName
  // var itemPrice
- var price = Math.floor(Math.random()*100))+1
+ var price = Math.floor(Math.random()*100)+1
  var newItem = {itemName:[item],itemPrice:[price]}
  Object.assign(cart,newItem)
 }
