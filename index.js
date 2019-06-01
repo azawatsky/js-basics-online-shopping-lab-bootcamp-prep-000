@@ -49,7 +49,7 @@ function removeFromCart(item) {
   if (originalCartLength===cart.length) {
     return 'That item is not in your cart.'
   }
-    return cart
+  return cart
 }
 
 function placeOrder(cardNumber) {
