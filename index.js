@@ -20,11 +20,12 @@ function viewCart() {
     return 'Your shopping cart is empty.'
   } else {
     var message = ['In your cart, you have ']
-    for (let i=0,i<cart.length-1,i++) {
+    for (let i=0;i<cart.length-1;i++) {
       message.push(`${cart[i].itemName} at $ ${cart[i].itemPrice}, `)
     }
     var lastItem = cart.slice(-1)
-    message.push(` and ${cart.slice(-1)[0].itemName} at ${}.`)
+    message.push(` and ${cart.slice(-1)[0].itemName} at ${cart.slice(-1)[0].itemPrice}.`)
+    return message
   }
 }
 
